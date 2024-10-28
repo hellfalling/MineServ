@@ -4,7 +4,10 @@ BODY {
 img {
     border-radius:10px;
     opacity:1;
-}                            
+}
+.logotext {
+     float:right;
+}     
 nav {
     margin: 5px;
     padding: 5px;
