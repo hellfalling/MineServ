@@ -13,7 +13,10 @@ img {
 } 
 .papermc {
      float:left
-}   
+}
+.vanilla{
+     float:center
+}
 nav {
     margin: 5px;
     padding: 5px;
