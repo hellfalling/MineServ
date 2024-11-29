@@ -5,6 +5,11 @@ img {
     border-radius:10px;
     opacity:1;
 }
+img:hover {
+    border-radius:10px;
+    opacity:1;
+    size:25;
+}
 .logotext {
      float:right
 } 
