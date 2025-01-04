@@ -8,8 +8,8 @@ img {
 img:hover {
     border-radius:10px;
     opacity:1;
-    width:300;
-    height:300; 
+    width:1000;
+    height:480; 
     transition:all 2s ease-out; 
     
 }
