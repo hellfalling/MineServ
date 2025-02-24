@@ -3,6 +3,7 @@ BODY {
 }
 img {
     border-radius:10px;
+    opacity:1; 
 }
 .cheburek {
     border-radius:10px;
