@@ -3,7 +3,21 @@ BODY {
 }
 img {
     border-radius:10px;
+}
+.cheburek {
+    border-radius:10px;
+    opacity:0.5; 
+}
+.cheburek:hover {
+    border-radius:10px;
+    opacity:1;
+    transition:all 2s ease-out; 
+    
+}
+.cheburek:hover::after {
+    border-radius:10px;
     opacity:0.5;
+    transition:all 2s ease-out;  
 }
 img:hover {
     border-radius:10px;
