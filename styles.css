@@ -92,3 +92,21 @@ h1 {
 p {
    color:white;
 }
+.jump-once {
+            display: inline-block; /* Чтобы transform работал правильно */
+        }   
+            
+.jump-once:hover {
+            animation: jump 0.5s ease 1; /* "1" означает один повтор */
+        }
+        
+@keyframes jump {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
